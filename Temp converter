@@ -1,0 +1,16 @@
+let kelvin = 0;
+// Temp = 293
+
+let celsius = kelvin -= 273;
+// Conversion of kelvin to celsius
+
+
+let fahrenheit = celsius * (9 / 5) + 32;
+// Conversion of celsius to Fahrenheit
+
+fahrenheit = Math.floor(fahrenheit);
+// Rounds down decimal
+
+console.log(`The temperature is ${fahrenheit} degrees fahrenheit.`);
+
+// Easy code to convert Kelvin / Celsius / Fahrenheit to temperature
